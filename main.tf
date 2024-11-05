@@ -1,6 +1,6 @@
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
-  machine_type = "terraform.tfvars"
+  machine_type = "t3.small"
 
   boot_disk {
     initialize_params {
